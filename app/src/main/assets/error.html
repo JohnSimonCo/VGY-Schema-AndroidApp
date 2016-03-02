@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+
+    <style type="text/css">
+
+        body {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 0;
+            background-color: #263238;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .text {
+            font-size: 22px;
+            margin: auto;
+            padding-bottom: 16px;
+        }
+
+        .btn {
+            font-size: 20px;
+            padding: 16px;
+            margin: auto;
+            width: 100px;
+            text-align: center;
+            background: #455b66;
+            box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.6);
+            transition: all 300ms;
+        }
+
+        .btn:active {
+            background: #7c8c93;
+            box-shadow: 0px 10px 60px -10px rgba(0,0,0,0.8);
+        }
+
+    </style>
+
+    <script type="text/javascript">
+
+		function reload() {
+			window.location.replace(window.location.hash.substring(1));
+		}
+
+	</script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="text">Inladdningen av sidan misslyckades </div>
+    <div onclick="reload()" class="btn">Ladda om</div>
+
+</div>
+
+</body>
+</html>
