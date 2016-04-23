@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VarmdoSchema.iml" filepath="$PROJECT_DIR$/VarmdoSchema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VGY-Schema-AndroidApp.iml" filepath="$PROJECT_DIR$/VGY-Schema-AndroidApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
